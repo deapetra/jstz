@@ -1,0 +1,138 @@
+body{
+    background-image: url(img/hatter.png);
+}
+h1{
+    margin-left: 5px;
+}
+
+.div{
+    background-color: lightpink;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1050px;
+    height: 1100px;
+    border: black dotted 1px;
+    padding: 10px;
+}
+
+hr{
+    border: rgb(184, 0, 0) solid 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tx{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.link{
+    margin-left: 160px;
+    margin-right: auto;
+}
+
+.div1{
+    background-color: darkgray;
+    width: 500px;
+    float: left;
+}
+
+.div2{
+    background-color: darkgrey;
+    width: 500px;
+    float: right;
+}
+
+.kep{
+    float: left;
+    width: 100px;
+    border: inset darkgrey;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cim{
+    background-color: lightpink;
+    width: 250px;
+    border: outset darkgrey;
+    margin-left: 10px;
+}
+
+.txt{
+    margin-left: 10px;
+}
+
+.divkep{
+    background-color: lightpink;
+    margin-right: auto;
+    margin-left: auto;
+    border: black dotted 1px;
+    width: 1050px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.kepek{
+    width: 150px;
+    height: 150px;
+    margin-left: 40px;
+   
+}
+.kepek1{
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+}
+
+.gal{
+    margin-left: 10px;
+}
+
+.kepgal {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+.kepgal img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+.kepgal img:hover {
+    opacity: 1;
+  }
+  
+.divkep:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.container {
+    position: relative;
+    display: none;
+  }
+  
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+
+.iksz {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
